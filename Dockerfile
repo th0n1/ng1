@@ -1,6 +1,6 @@
 FROM nginx
 ADD index.html /usr/share/nginx/html
-cat <<EOF >index.html
+cat index.html
 <html>
 <head>
 <title>ALOOO VOCE!</title>
@@ -16,4 +16,3 @@ cat <<EOF >index.html
 <p>  Alo Voce !!!!!   <p/>
 </body>
 </html>
-EOF

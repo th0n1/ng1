@@ -1,6 +1,5 @@
 FROM nginx
 ADD index.html /usr/share/nginx/html
-cat index.html
 <html>
 <head>
 <title>ALOOO VOCE!</title>
